@@ -4,7 +4,7 @@
   "description": "A tech news website that will take in user info and allow them to vote on polls.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -31,6 +31,10 @@
     "express-handlebars": "^5.1.0",
     "express-session": "^1.17.1",
     "mysql2": "^2.1.0",
+    "node": "^14.8.0",
     "sequelize": "^6.3.4"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }
